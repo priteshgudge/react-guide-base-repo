@@ -7,7 +7,8 @@ function App() {
   return (
     <div className="App">
      <h1>Hi</h1>
-     <Person/>
+     <Person name="Pritesh" age="28"/>
+     <Person name="Other Person" age="30"> Other Text </Person>
     </div>
   );
 }
